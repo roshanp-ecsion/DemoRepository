@@ -13,6 +13,16 @@ import {
 } from "ckeditor5";
 import { SlashCommand } from "ckeditor5-premium-features";
 // import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
+// import Font from "@ckeditor/ckeditor5-font/src/font";
 
 import "ckeditor5/ckeditor5.css";
 import "ckeditor5-premium-features/ckeditor5-premium-features.css";
