@@ -1,38 +1,16 @@
 import React from "react";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
-import {
-  ClassicEditor,
-  Bold,
-  Essentials,
-  Italic,
-  Mention,
-  Paragraph,
-  Undo,
-  Font,
-  List,
-} from "ckeditor5";
-import { SlashCommand } from "ckeditor5-premium-features";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
-// import Font from "@ckeditor/ckeditor5-font/src/font";
+import Editor from "./Editor";
 
-import "ckeditor5/ckeditor5.css";
-import "ckeditor5-premium-features/ckeditor5-premium-features.css";
+
+
 
 function App() {
   //
   return (
     <div style={{ margin: "20px" }}>
       Practice Here
-      <CKEditor
+      {/* <CKEditor
         editor={ClassicEditor}
         config={{
           toolbar: {
@@ -53,7 +31,8 @@ function App() {
           mention: {},
           initialData: "<p>Hello from CKEditor 5 in React!</p>",
         }}
-      />
+      /> */}
+      <Editor />
     </div>
   );
 }
